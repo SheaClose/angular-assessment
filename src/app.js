@@ -1,4 +1,4 @@
-angular.module("app", ["ui.router"])
+angular.module("assessment", ["ui.router"])
 .directive("products", function(MainSrv){
 	return {
 		restrict: "E"

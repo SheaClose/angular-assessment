@@ -1,4 +1,4 @@
-angular.module( "app" )
+angular.module( "assessment" )
 .controller( "MainCtrl", function( $scope, MainSrv ){
 	const getShopInfo = () => {
 		MainSrv.shopInfo().then( response => {

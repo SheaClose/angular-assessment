@@ -1,4 +1,4 @@
-angular.module("app")
+angular.module("assessment")
 .service("MainSrv", function($http){
 	this.shopInfo = () => {
 		return $http.get("http://practiceapi.devmounta.in/products")
