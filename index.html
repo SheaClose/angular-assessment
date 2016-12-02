@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="assessment">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Front End Assessment</title>
@@ -17,10 +17,10 @@
                             <a ui-sref="shop">Shop</a>
                         </li>
                         <li>
-                            <a>Blog</a>
+                            <a ui-sref="blog">Blog</a>
                         </li>
                         <li>
-                            <a>About</a>
+                            <a ui-sref="about">About</a>
                         </li>
                     </ul>
 
@@ -34,7 +34,7 @@
         </header>
         <!--This is the main wrapper -->
         <main class="site-main" role="main">
-
+					<ui-view></ui-view>
 
 
         </main>
@@ -43,6 +43,9 @@
 
 <!--ADD ALL YOUR SCRIPTS HERE -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+<script src="./src/app.js"></script>
+<script src="./src/Srv/MainSrv.js"></script>
+<script src="./src/Ctrl/MainCtrl.js"></script>
 </body>
 </html>

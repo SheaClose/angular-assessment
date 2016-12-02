@@ -1,18 +1,3 @@
- starting # Angular assessment
-
-
-``1``
- Create a basic angular app that includes a mainCtrl,mainService,app.js and routes.js The index.html file is included in this repo so you dont need to add one.
-
-``2``
- Setup your router, states, and ui-view so that the home.html loads first. Also set up the routes for the about.html, blog.html and shop.html.
-
-``3``
- Connect the navigation links that are located in the index.html to point to the corresponding page.
-
-``4``
- After you have your routing setup you can start working on getting the data you'll need.
- For the shop.html view you're going to need to make an api call to http://practiceapi.devmounta.in/products to get all the products.
 
  ``5``
  Product needs to be a directive.  The template is provided for you in product-tmpl.html.
